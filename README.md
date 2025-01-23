@@ -10,7 +10,7 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 
 <h2>📁 Estrutura do Projeto</h2>
 
- 📂 src
+ 📂 src <br>
  ├── controllers/     # Controladores das rotas  <br>
  ├── models/          # Modelos para o banco de dados  <br>
  ├── routes/          # Rotas da aplicação  <br>
@@ -33,5 +33,5 @@ Express <br>
 Banco de dados (MariaDB ou Supabase) <br>
 Dotenv para gerenciamento de variáveis de ambiente <br>
 
-🙋‍♂️ Autor
+<h2>🙋‍♂️ Autor</h2>
 Feito por Gabriel.
