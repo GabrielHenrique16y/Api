@@ -10,13 +10,14 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 
 <h2>📁 Estrutura do Projeto</h2>
 
-  📂 src <br>
- <p>├── controllers/     # Controladores das rotas</p>
- <p>├── models/          # Modelos para o banco de dados </p>
- <p>├── routes/          # Rotas da aplicação </p>
- <p>├── config/          # Configurações gerais (banco, ambiente)</p>
- <p>├── server.js        # Inicialização do servidor</p>
- <p>└── app.js           # Configuração principal do servidor </p>
+ 📂 src <br>
+    📂 controllers/  # Controladores das rotas <br>
+    📂 models/       # Modelos para o banco de dados <br>
+    📂 routes/       # Rotas da aplicação <br>
+    📂 config/       # Configurações gerais (banco, ambiente) <br>
+    📄 server.js     # Inicialização do servidor <br>
+    📄 app.js        # Configuração principal do servidor <br>
+
 
 
 <h2>🚀 Como Rodar o Projeto</h2>
