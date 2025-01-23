@@ -10,13 +10,13 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 
 <h2>📁 Estrutura do Projeto</h2>
 
- 📂 src <br>
- ├── controllers/     # Controladores das rotas  <br>
- ├── models/          # Modelos para o banco de dados  <br>
- ├── routes/          # Rotas da aplicação  <br>
- ├── config/          # Configurações gerais (banco, ambiente)  <br>
- ├── server.js        # Inicialização do servidor  <br>
- └── app.js           # Configuração principal do servidor  <br>
+  📂 src <br>
+ <p>├── controllers/     # Controladores das rotas</p>  <br>
+ <p>├── models/          # Modelos para o banco de dados </p> <br>
+ <p>├── routes/          # Rotas da aplicação </p> <br>
+ <p>├── config/          # Configurações gerais (banco, ambiente)</p>  <br>
+ <p>├── server.js        # Inicialização do servidor</p>  <br>
+ <p>└── app.js           # Configuração principal do servidor </p> <br>
 
 
 <h2>🚀 Como Rodar o Projeto</h2>
@@ -30,7 +30,7 @@ Banco de dados supabase configurado <br>
 <h2>🛠 Tecnologias Utilizadas</h2>
 Node.js <br>
 Express <br>
-Banco de dados (MariaDB ou Supabase) <br>
+Banco de dados Supabase <br>
 Dotenv para gerenciamento de variáveis de ambiente <br>
 
 <h2>🙋‍♂️ Autor</h2>
