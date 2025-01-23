@@ -11,10 +11,11 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 <h2>📁 Estrutura do Projeto</h2>
 
  📂 src <br>
+    📂 config/       # Configurações gerais (banco, ambiente) <br>
     📂 controllers/  # Controladores das rotas <br>
+    📂 middlewares/  # middlewares para autenticação <br>
     📂 models/       # Modelos para o banco de dados <br>
     📂 routes/       # Rotas da aplicação <br>
-    📂 config/       # Configurações gerais (banco, ambiente) <br>
     📄 server.js     # Inicialização do servidor <br>
     📄 app.js        # Configuração principal do servidor <br>
 
