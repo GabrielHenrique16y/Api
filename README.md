@@ -10,14 +10,16 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 
 <h2>📁 Estrutura do Projeto</h2>
 
- 📂 src <br>
-    📂 config/ &emsp # Configurações gerais (banco, ambiente) <br>
-    📂 controllers/  &emsp# Controladores das rotas <br>
-    📂 middlewares/ &emsp # middlewares para autenticação <br>
-    📂 models/     &emsp  # Modelos para o banco de dados <br>
-    📂 routes/     &emsp  # Rotas da aplicação <br>
-    📄 server.js   &emsp  # Inicialização do servidor <br>
-    📄 app.js      &emsp  # Configuração principal do servidor <br>
+ <pre>
+     📂 src
+        📂 config/       # Configurações gerais (banco, ambiente)
+        📂 controllers/  # Controladores das rotas
+        📂 middlewares/  # middlewares para autenticação
+        📂 models/       # Modelos para o banco de dados
+        📂 routes/       # Rotas da aplicação
+        📄 server.js     # Inicialização do servidor
+        📄 app.js        # Configuração principal do servidor
+ </pre>
 
 
 
