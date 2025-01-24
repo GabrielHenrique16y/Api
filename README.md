@@ -36,6 +36,13 @@ Este repositório contém uma API desenvolvida em JavaScript como parte do curso
 **Banco de dados Supabase** <br>
 **Dotenv para gerenciamento de variáveis de ambiente** <br>
 
+## 🌐 Acesse o Deploy
+
+Você pode acessar a aplicação em produção clicando no link abaixo:
+
+[🔗 Acesse a aplicação](https://api-alpha-self.vercel.app)
+
+
 ## 🙋‍♂️ Autor
 
 Feito por Gabriel.
