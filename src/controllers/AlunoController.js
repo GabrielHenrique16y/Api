@@ -29,6 +29,28 @@ class AlunoController {
             res.status(400).json({ errors: [e.message] });
         }
     }
+
+    async pesquisa(req, res){
+        const {pesquisa} = req.body
+        const id = req.userId
+        try{
+            const { data, error } = await supabase
+                .from('alunos')
+                .select('*')
+                .eq('created_user', id)
+                .or(`nome.ilike.%${pesquisa}%,sobrenome.ilike.%${pesquisa}%,email.ilike.%${pesquisa}%`)
+
+            if(error) {
+                console.log('Erro na pesquisa:', error);
+                return res.status(400).json({ errors: [error.message] });
+            }
+
+            return res.json(data)
+        }catch(err){
+            console.error('Erro ao pesquisar aluno:', e);
+            res.status(400).json({ errors: [e.message] });
+        }
+    }
     
 
     async store(req, res) {
