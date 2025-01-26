@@ -4,8 +4,9 @@ import { Foto } from '../models/Foto';
 
 class AlunoController {
     async index(req, res) {
+        const id = req.userId
         try {
-            const alunos = await Aluno.findAll();
+            const alunos = await Aluno.findAll(id);
     
             for (const aluno of alunos) {
                 const { data: fotos, error } = await supabase
@@ -32,6 +33,7 @@ class AlunoController {
 
     async store(req, res) {
         const { nome, sobrenome, email, idade } = req.body;
+        const createdUser = req.userId;
     
         // Verificar se todos os campos obrigatórios estão presentes
         if (!nome || !sobrenome || !email || !idade) {
@@ -43,7 +45,13 @@ class AlunoController {
         try {
             const { data, error } = await supabase
                 .from('alunos')
-                .insert([req.body])
+                .insert([{
+                    nome,
+                    sobrenome,
+                    email,
+                    idade,
+                    created_user: createdUser
+                }])
                 .single(); // Garanta que um único aluno seja retornado após a inserção
 
             if (error) {
