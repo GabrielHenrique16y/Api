@@ -45,4 +45,5 @@ Você pode acessar a aplicação em produção clicando no link abaixo:
 
 ## 🙋‍♂️ Autor
 
-Feito por Gabriel.
+Feito por **Gabriel Henrique Jenuino**.  
+Este site foi criado como um projeto de estudo e pode ser utilizado como referência para futuras implementações.
